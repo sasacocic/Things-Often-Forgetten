@@ -50,7 +50,13 @@ Literally just a list of shit I always forget. Maybe I should actually learn thi
 It's really hard to figure out how to upload a new version. You have to go to "package" in the left had menu then in the top right it will say "Upload new package". This is how you can update
 your application. 
 
+![chrome-submission.png](./chrome-submission.png)
 
 # Arch Linux
 
 - [Groups](https://wiki.archlinux.org/index.php/users_and_groups#Group_management) 
+
+
+
+
+
