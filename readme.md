@@ -26,11 +26,19 @@ Literally just a list of shit I always forget. Maybe I should actually learn thi
 
 .example > a:nth-child(1) - this will be null, because nth-child(1) is a span and nth-child(1) says select the first child element.
 
+```html
 <div id="example">
 	<span>hello</span>
-	<a href="#">link one</a>
+	<a id="this_one" href="#">link one</a>
 	<a href="#">link two</a>
 </div>
+```
+```css
+/* targets element with attribute id="this_one" */
+.example > a:nth-child(2) {
+  background-color: yellow;
+}
+```
 
 
 [this link to css-tricks is really helpful](https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
